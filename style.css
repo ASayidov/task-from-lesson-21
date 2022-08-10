@@ -4,15 +4,15 @@
   text-decoration: none;
   list-style-type: none;
   box-sizing: border-box;
-}
-menu, footer, main, header {
+  }
+menu, footer,.main, header {
   background-color: lightgoldenrodyellow;
+  padding: 5px 10rem;
 }
 menu {
   display: flex;
   justify-content: space-between;
-  padding: 10px 50px;
-  }
+    }
 
 .menu {
   display: flex;
@@ -21,6 +21,15 @@ menu {
 
 .menu li {
   padding-right: 10px;
+}
+
+header {
+  padding: 5px 10rem;
+}
+.news-on-img {
+  background-image: url(./assets/img/heading_news.jpg);
+  width: 10rem;
+  height: 5rem;
 }
 
 .btn {
