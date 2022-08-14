@@ -20,7 +20,7 @@ menu {
 }
 
 .menu li {
-  padding-right: 10px;
+  padding-right: 50px;
   }
 
 header {
@@ -28,12 +28,13 @@ header {
 }
 .news-on-img {
   background-image: url(./assets/img/heading_news.jpg);
-   width: 24rem;
+  width: 24rem;
   height: 25rem;
   margin-right: 1.5rem;
   color: #fff;
   display: flex;
- align-items: flex-end;
+  align-items: flex-end;
+  padding: 1rem;
 }
 
 .section__right {
@@ -48,8 +49,7 @@ padding-top: 4.5rem;
 
 .main {
   display: grid;
-  grid-template-columns: 30% 30% 30%;
-
+  grid-template-columns: 28% 28% 28%;
 }
 
 .btn {
@@ -58,4 +58,15 @@ padding-top: 4.5rem;
  padding: 0.5rem 0.4rem;
  border-radius: 0.5rem;
  cursor: pointer;
+ margin-left: 10rem;
+}
+
+.short_info, .contact  {
+  display: flex;
+  padding: 2rem 0;
+}
+
+.footer__news {
+  display: flex;
+  grid-template-rows: 30% 35% 35%;
 }
